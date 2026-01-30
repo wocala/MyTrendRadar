@@ -50,8 +50,6 @@ platforms:
       name: "格隆汇"
     - id: "xueqiu"
       name: "雪球"
-    - id: "weibo"
-      name: "微博"
     - id: "zhihu"
       name: "知乎"
     - id: "ithome"
@@ -138,7 +136,7 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
+  mode: "daily"                     # 可选: daily | current | incremental
   display_mode: "keyword"             # 分组维度: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
                                       # platform: 按平台/来源分组显示
