@@ -171,9 +171,9 @@ display:
     - ai_analysis                       # 5️⃣ AI 分析区域
     - standalone                       # 4️⃣ 独立展示区
   regions:
-    hotlist: true # 热榜区域（关键词匹配的热点新闻）
-    new_items: false # 新增热点区域（含热榜新增 + RSS 新增）
-    rss: true # RSS 订阅区域
+    hotlist: false # 热榜区域（关键词匹配的热点新闻）
+    new_items: true # 新增热点区域（含热榜新增 + RSS 新增）
+    rss: false # RSS 订阅区域
     ai_analysis: false # AI 分析区域
     standalone: false # 独立展示区（完整热榜/RSS，不受关键词过滤）
   standalone:
